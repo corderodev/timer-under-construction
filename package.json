@@ -1,0 +1,23 @@
+{
+  "name": "timer-under-construction",
+  "version": "1.0.0",
+  "description": "It is a timer that shows users the time remaining for the deployment of a website under construction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnlambb/timer-under-construction.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "CSS"
+  ],
+  "author": "Daniel Cordero @dnlambb (dnlambb@writeme.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnlambb/timer-under-construction/issues"
+  },
+  "homepage": "https://github.com/dnlambb/timer-under-construction#readme"
+}
