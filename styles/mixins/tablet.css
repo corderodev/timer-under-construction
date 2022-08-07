@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+  .layout {
+    height: 100vh;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h6 {
+    font-size: 3.4rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  footer a img {
+    height: 45px;
+  }
+  
+  .timer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .timer-container p {
+    font-size: 2.1rem;
+  }
+}
