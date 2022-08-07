@@ -1,0 +1,108 @@
+:root {
+  --primary: #16C79A;
+  --secondary: #19456B;
+  --terciary: #F8F1F1;
+  --font: 'Nunito', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font);
+  background-image: url(../assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  overflow: hidden;
+}
+
+header {
+  width: auto;
+  padding: 4rem 0 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  border-bottom: 1px solid var(--primary);
+}
+
+main {
+  width: auto;
+  height: auto;
+}
+
+h1, h6, p {
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h6 {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.timer-container__days, .timer-container__hours, .timer-container__minutes, .timer-container__seconds {
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: 4rem;
+  font-family: var(--font);
+  border-radius: 20px;
+  color: var(--terciary);
+  background-color: var(--secondary);
+}
+
+.timer-container p {
+  font-size: 1.6rem;
+  text-transform: none;
+}
+
+footer {
+  width: 100%;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a img {
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--terciary);
+  padding: .4rem;
+}
